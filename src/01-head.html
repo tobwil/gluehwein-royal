@@ -22,7 +22,11 @@
   --f: 'Archivo', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
   color-scheme: light;
 }
-html, body { height: 100%; }
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+[hidden] { display: none !important; }
+img, svg, canvas { max-width: 100%; }
+:root { padding-top: 0; }
 body { background: var(--paper); color: var(--ink); font-family: var(--f); font-size: 16px; line-height: 1.4; overflow: hidden; -webkit-font-smoothing: antialiased; }
 button, input, textarea { font: inherit; color: inherit; }
 button { cursor: pointer; -webkit-tap-highlight-color: transparent; }
@@ -385,7 +389,8 @@ textarea.t { min-height: 7em; resize: vertical; font-weight: 400; }
   .tl-card { min-height: 180px; } .tl-card .yr { font-size: clamp(64px, 6vw, 110px); }
   .tug .s b { font-size: clamp(90px, 9vw, 160px); }
   .roll { height: 160px; } .buzzer { min-height: 100px; }
-  .wheel-wrap { width: min(44vh, 86vw); }
+  .wheel-wrap { width: min(40vh, 86vw); }
+  .wheel-wrap ~ .solution { font-size: clamp(30px, 3.4vw, 56px); }
   .intro-card .title { font-size: clamp(64px, 7vw, 130px); }
 }
 /* ---------- Motion Graphics ---------- */
