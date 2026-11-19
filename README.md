@@ -2,6 +2,44 @@
 
 Die Gameshow für die Weihnachtsfeier. Jede*r spielt für sich mit dem eigenen Handy, ein Gerät moderiert und zeigt die Show. Kein Konto, keine App, keine Datenbank.
 
+<p align="center">
+  <img src="docs/screenshots/01-titel.webp" width="49%" alt="Titelbild mit dem Schriftzug Glühwein Royale">
+  <img src="docs/screenshots/02-lobby.webp" width="49%" alt="Lobby mit QR-Code, Raumcode und sechs beigetretenen Personen">
+</p>
+
+## So sieht’s aus
+
+### Auf dem Handy der Gäste
+
+<p>
+  <img src="docs/screenshots/p1-beitreten.webp" width="13.5%" alt="Beitreten: Name und Zeichen wählen">
+  <img src="docs/screenshots/p2-frage.webp" width="13.5%" alt="Quizfrage mit vier Antwortknöpfen">
+  <img src="docs/screenshots/p3-ergebnis.webp" width="13.5%" alt="Auflösung: richtige Antwort markiert, eigenes Ergebnis darunter">
+  <img src="docs/screenshots/p4-abstimmung.webp" width="13.5%" alt="Wer würde am ehesten: Abstimmung über die Mitspielenden">
+  <img src="docs/screenshots/p5-zeitstrahl.webp" width="13.5%" alt="Früher oder später: zwei große Knöpfe">
+  <img src="docs/screenshots/p6-einsatz.webp" width="13.5%" alt="Finale: Einsatz per Schieberegler festlegen">
+  <img src="docs/screenshots/p7-endstand.webp" width="13.5%" alt="Endstand mit eigenem Platz und Podest">
+</p>
+
+### Auf dem Beamer (oder dem Moderations-Handy)
+
+| | |
+|---|---|
+| ![Rundenstart mit Regeln](docs/screenshots/03-runde.webp) | ![Quizfrage mit Timer und Antwortzähler](docs/screenshots/04-frage.webp) |
+| **Rundenstart** – Regeln in drei Sätzen | **Frage** – Timer, Zähler „3 von 6 haben geantwortet“ |
+| ![Auflösung mit Antwortverteilung](docs/screenshots/05-aufloesung.webp) | ![Zwischenstand mit animierter Rangliste](docs/screenshots/06-zwischenstand.webp) |
+| **Auflösung** – Verteilung und schnellste richtige Antwort | **Zwischenstand** – Rangliste gleitet an die neuen Plätze |
+| ![Die Band spielt eine Melodie, Piano-Roll oben](docs/screenshots/07-band.webp) | ![Schätzduell mit Punktewolke aller Tipps](docs/screenshots/08-schaetzduell.webp) |
+| **Die Band spielt …** – Piano-Roll zeigt nur bereits gespielte Noten | **Schätzduell** – alle Tipps als Punktewolke, die drei Nächsten markiert |
+| ![Ergebnis von Wer würde am ehesten](docs/screenshots/09-wer-wuerde.webp) | ![Früher oder später mit Ausgeschiedenen](docs/screenshots/10-zeitstrahl.webp) |
+| **Wer würde am ehesten …?** – nur das Ergebnis, nie wer wen gewählt hat | **Früher oder später?** – wer falsch liegt, fliegt |
+| ![Rücken zur Leinwand mit großem Begriff](docs/screenshots/11-ruecken.webp) | ![Glücksrad im Finale](docs/screenshots/12-gluecksrad.webp) |
+| **Rücken zur Leinwand** – eine Person rät, der Saal erklärt | **Finale** – das Glücksrad bestimmt den Multiplikator |
+
+<p align="center"><img src="docs/screenshots/13-siegerehrung.webp" width="70%" alt="Siegerehrung mit Podest und Feuerwerk"></p>
+
+Alle Screenshots stammen aus einer echten Testshow (1 Moderation + 6 Handys, verbunden über PeerJS).
+
 ## So läuft eine Show
 
 1. **Moderationsgerät** (Laptop am Beamer, Tablet oder Handy): Seite öffnen, **Show eröffnen**.
